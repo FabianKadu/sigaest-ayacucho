@@ -1,0 +1,495 @@
+[30-Apr-2024 21:13:55 America/Lima] PHP Warning:  Undefined array key "id" in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/agregar_convocatoria.php on line 17
+[02-May-2024 21:47:01 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php:16
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(16): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php on line 16
+[02-May-2024 21:47:05 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php:16
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(16): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php on line 16
+[02-May-2024 21:50:37 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(17): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[02-May-2024 21:51:15 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(17): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[02-May-2024 21:52:08 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(16): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[02-May-2024 21:52:12 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(16): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[02-May-2024 21:53:23 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(16): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[02-May-2024 21:53:53 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(16): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[02-May-2024 21:53:56 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(16): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[02-May-2024 21:54:00 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(16): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[20-May-2024 10:22:28 America/Lima] PHP Warning:  Undefined variable $llave in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/evaluar_empresa.php on line 168
+[20-May-2024 10:22:28 America/Lima] PHP Warning:  Undefined variable $id_emp in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/evaluar_empresa.php on line 168
+[20-May-2024 10:51:00 America/Lima] PHP Warning:  Undefined array key "id" in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/agregar_convocatoria.php on line 17
+[20-May-2024 13:37:03 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:37:03 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:37:03 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php(8): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[20-May-2024 13:37:51 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:37:51 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:37:51 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php(8): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[20-May-2024 13:41:40 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:41:40 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:41:40 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php(8): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[20-May-2024 13:41:47 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:41:47 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:41:47 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php(8): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[20-May-2024 13:42:30 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:42:30 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:42:30 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php(8): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[20-May-2024 13:43:37 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:43:37 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:43:37 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php(8): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[20-May-2024 13:43:44 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:43:44 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:43:44 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php(8): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[20-May-2024 13:45:20 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:45:20 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:45:20 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php(8): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[20-May-2024 13:45:41 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:45:41 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:45:41 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php(8): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[20-May-2024 13:45:46 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:45:46 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:45:46 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php(8): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[20-May-2024 13:45:52 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:45:52 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:45:52 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_si_activa() in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php:6
+Stack trace:
+#0 /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php(8): verificar_sesion()
+#1 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/include/verificar_sesion_administrador.php on line 6
+[20-May-2024 18:47:57 UTC] PHP Parse error:  Unmatched ')' in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 12
+[20-May-2024 18:48:04 UTC] PHP Parse error:  Unmatched ')' in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 12
+[20-May-2024 18:48:14 UTC] PHP Parse error:  Unmatched ')' in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 12
+[20-May-2024 18:49:17 UTC] PHP Parse error:  Unmatched ')' in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 12
+[20-May-2024 18:49:18 UTC] PHP Parse error:  Unmatched ')' in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 12
+[20-May-2024 18:49:19 UTC] PHP Parse error:  Unmatched ')' in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 12
+[20-May-2024 18:49:19 UTC] PHP Parse error:  Unmatched ')' in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 12
+[20-May-2024 18:49:19 UTC] PHP Parse error:  Unmatched ')' in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 12
+[20-May-2024 18:49:19 UTC] PHP Parse error:  Unmatched ')' in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 12
+[20-May-2024 18:49:19 UTC] PHP Parse error:  Unmatched ')' in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 12
+[20-May-2024 18:49:20 UTC] PHP Parse error:  Unmatched ')' in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 12
+[20-May-2024 18:49:20 UTC] PHP Parse error:  Unmatched ')' in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 12
+[20-May-2024 18:50:33 UTC] PHP Parse error:  Unmatched ')' in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 12
+[20-May-2024 18:50:35 UTC] PHP Parse error:  Unmatched ')' in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 12
+[20-May-2024 18:50:41 UTC] PHP Parse error:  Unmatched ')' in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 12
+[20-May-2024 13:52:08 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:52:08 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:52:17 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:52:17 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:53:25 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:53:25 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:55:07 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:55:07 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:57:41 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 13:57:41 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[20-May-2024 15:50:21 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function real_escape_string() in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/actualizar_convocatoria.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/actualizar_convocatoria.php on line 31
+[20-May-2024 15:54:32 America/Lima] PHP Warning:  Undefined variable $conecion in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/actualizar_convocatoria.php on line 31
+[20-May-2024 15:54:32 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/actualizar_convocatoria.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/actualizar_convocatoria.php on line 31
+[20-May-2024 15:54:35 America/Lima] PHP Warning:  Undefined variable $conecion in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/actualizar_convocatoria.php on line 31
+[20-May-2024 15:54:35 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/actualizar_convocatoria.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/actualizar_convocatoria.php on line 31
+[20-May-2024 15:55:15 America/Lima] PHP Warning:  Undefined variable $conecion in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/actualizar_convocatoria.php on line 31
+[20-May-2024 15:55:15 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/actualizar_convocatoria.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/actualizar_convocatoria.php on line 31
+[20-May-2024 15:55:18 America/Lima] PHP Warning:  Undefined variable $conecion in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/actualizar_convocatoria.php on line 31
+[20-May-2024 15:55:18 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/actualizar_convocatoria.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/actualizar_convocatoria.php on line 31
+[20-May-2024 20:41:03 America/Lima] PHP Warning:  Undefined array key "id" in /home/sistemae/iestpmorochucos.sistema.edu.pe/bolsa_laboral/operaciones/agregar_convocatoria.php on line 17
+[22-May-2024 21:13:37 America/Lima] PHP Warning:  Undefined variable $llave in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/evaluar_empresa.php on line 168
+[22-May-2024 21:13:37 America/Lima] PHP Warning:  Undefined variable $id_emp in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/evaluar_empresa.php on line 168
+[22-May-2024 21:22:06 America/Lima] PHP Warning:  Undefined variable $llave in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/evaluar_empresa.php on line 168
+[22-May-2024 21:22:06 America/Lima] PHP Warning:  Undefined variable $id_emp in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/evaluar_empresa.php on line 168
+[22-May-2024 21:32:37 America/Lima] PHP Warning:  Undefined array key "id" in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/agregar_convocatoria.php on line 17
+[22-May-2024 21:34:24 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[22-May-2024 21:34:24 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/demo.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[02-Sep-2024 16:35:26 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'UTC-5', using 'UTC' instead in Unknown on line 0
+[02-Sep-2024 16:37:14 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'UTC-5', using 'UTC' instead in Unknown on line 0
+[02-Sep-2024 16:39:28 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'UTC-5', using 'UTC' instead in Unknown on line 0
+[02-Sep-2024 16:43:55 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'UTC-5', using 'UTC' instead in Unknown on line 0
+[02-Sep-2024 16:45:28 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'UTC-5', using 'UTC' instead in Unknown on line 0
+[06-Sep-2024 08:57:03 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function generarPass() in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 48
+[06-Sep-2024 08:57:40 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[06-Sep-2024 08:57:40 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[06-Sep-2024 08:57:40 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[06-Sep-2024 09:39:35 America/Lima] PHP Warning:  Array to string conversion in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/agregar_convocatoria.php on line 47
+[06-Sep-2024 09:39:35 America/Lima] PHP Warning:  Array to string conversion in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/agregar_convocatoria.php on line 115
+[06-Sep-2024 14:39:35 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'UTC-5', using 'UTC' instead in Unknown on line 0
+[09-Sep-2024 20:14:06 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'UTC-5', using 'UTC' instead in Unknown on line 0
+[16-Sep-2024 11:23:08 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 11:23:08 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 11:23:08 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 16:28:47 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'UTC-5', using 'UTC' instead in Unknown on line 0
+[16-Sep-2024 15:02:07 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:02:07 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:02:07 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:02:07 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[16-Sep-2024 15:02:12 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:02:12 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:02:12 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:02:12 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[16-Sep-2024 15:02:17 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:02:17 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:02:17 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:02:17 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[16-Sep-2024 15:02:53 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:02:53 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:02:53 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:02:53 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[16-Sep-2024 15:03:26 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:03:26 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:03:26 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:03:26 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[16-Sep-2024 15:04:10 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:04:10 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:04:10 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:04:10 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[16-Sep-2024 15:46:57 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:46:57 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:46:57 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[16-Sep-2024 15:46:57 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[16-Sep-2024 20:55:28 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'UTC-5', using 'UTC' instead in Unknown on line 0
+[17-Sep-2024 15:06:37 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:06:37 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:06:37 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:06:37 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[17-Sep-2024 15:06:41 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:06:41 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:06:41 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:06:41 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[17-Sep-2024 15:07:11 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:07:11 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:07:11 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:07:11 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[17-Sep-2024 15:07:16 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:07:16 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:07:16 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:07:16 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[17-Sep-2024 15:07:20 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:07:20 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:07:20 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:07:20 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[17-Sep-2024 15:07:49 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:07:49 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:07:49 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[17-Sep-2024 15:07:49 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[19-Sep-2024 08:02:43 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:02:43 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:02:43 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:02:43 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[19-Sep-2024 08:06:56 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:06:56 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:06:56 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:06:56 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[19-Sep-2024 08:08:23 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:08:23 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:08:23 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:08:23 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[19-Sep-2024 08:08:40 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:08:40 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:08:40 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:08:40 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[19-Sep-2024 08:09:04 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:09:04 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:09:04 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:09:04 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[19-Sep-2024 08:09:15 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:09:15 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:09:15 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:09:15 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[19-Sep-2024 08:09:22 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:09:22 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:09:22 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:09:22 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[19-Sep-2024 08:13:32 America/Lima] PHP Warning:  Undefined variable $tamañoArchivo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 28
+[19-Sep-2024 08:13:32 America/Lima] PHP Warning:  Undefined variable $errorArchivo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 33
+[19-Sep-2024 08:13:32 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 49
+[19-Sep-2024 08:13:32 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 49
+[19-Sep-2024 08:13:32 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 49
+[19-Sep-2024 08:13:32 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:50
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(50): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:13:44 America/Lima] PHP Warning:  Undefined variable $tamañoArchivo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 28
+[19-Sep-2024 08:13:44 America/Lima] PHP Warning:  Undefined variable $errorArchivo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 33
+[19-Sep-2024 08:13:44 America/Lima] PHP Warning:  Undefined variable $contacto in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 49
+[19-Sep-2024 08:13:44 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 49
+[19-Sep-2024 08:13:44 America/Lima] PHP Warning:  Undefined variable $pass in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 49
+[19-Sep-2024 08:13:44 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:50
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(50): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:17:15 America/Lima] PHP Warning:  Undefined variable $cargo in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 50
+[19-Sep-2024 08:17:15 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[19-Sep-2024 08:18:17 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[19-Sep-2024 08:18:22 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[19-Sep-2024 08:20:41 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[19-Sep-2024 08:25:15 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'usuario' in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/actualizar_empresa.php:57
+Stack trace:
+#0 /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/actualizar_empresa.php(57): mysqli_query()
+#1 {main}
+  thrown in /home/sigaestc/institutoperucoreadelsur.sigaest.com/bolsa_laboral/operaciones/actualizar_empresa.php on line 57
+[19-Sep-2024 13:49:38 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'UTC-5', using 'UTC' instead in Unknown on line 0
+[19-Sep-2024 13:52:37 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'UTC-5', using 'UTC' instead in Unknown on line 0
+[19-Sep-2024 13:54:38 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'UTC-5', using 'UTC' instead in Unknown on line 0
+[19-Sep-2024 13:58:47 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'UTC-5', using 'UTC' instead in Unknown on line 0
+[19-Sep-2024 14:02:56 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'UTC-5', using 'UTC' instead in Unknown on line 0
+[19-Sep-2024 14:29:57 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'UTC-5', using 'UTC' instead in Unknown on line 0
+[19-Sep-2024 14:35:00 UTC] PHP Warning:  PHP Startup: Invalid date.timezone value 'UTC-5', using 'UTC' instead in Unknown on line 0
+[17-Oct-2024 15:32:21 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[17-Oct-2024 15:32:21 America/Lima] PHP Warning:  include(../include/consultas.php): Failed to open stream: No such file or directory in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[17-Oct-2024 15:32:21 America/Lima] PHP Warning:  include(): Failed opening '../include/consultas.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/eliminar_documentos.php on line 5
+[28-Oct-2024 15:17:59 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[28-Oct-2024 15:18:06 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[30-Oct-2024 13:08:53 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[30-Oct-2024 13:09:00 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[30-Oct-2024 13:09:49 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[30-Oct-2024 13:10:37 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[30-Oct-2024 13:13:58 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[30-Oct-2024 13:14:15 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[30-Oct-2024 13:25:23 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[30-Oct-2024 13:28:35 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '20143660754' for key 'ruc' in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[30-Oct-2024 14:20:34 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[30-Oct-2024 14:20:52 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[30-Oct-2024 14:28:28 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php on line 51
+[31-Oct-2024 08:19:39 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php:51
+Stack trace:
+#0 /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/sistemae/iestpmahp.sistema.edu.pe/bolsa_laboral/operaciones/registrar_empresa.php on line 51

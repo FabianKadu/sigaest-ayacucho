@@ -1,0 +1,35 @@
+[27-Feb-2024 11:02:40 America/Lima] PHP Notice:  Undefined index: turno in /home/sistemae/demo.sistema.edu.pe/empresa/operaciones/actualizar_convocatoria.php on line 26
+[28-Feb-2024 11:56:19 America/Lima] PHP Notice:  Undefined index: turno in /home/sistemae/demo.sistema.edu.pe/empresa/operaciones/actualizar_convocatoria.php on line 26
+[28-Feb-2024 11:58:13 America/Lima] PHP Notice:  Undefined index: turno in /home/sistemae/demo.sistema.edu.pe/empresa/operaciones/actualizar_convocatoria.php on line 26
+[28-Feb-2024 11:59:57 America/Lima] PHP Notice:  Undefined index: turno in /home/sistemae/demo.sistema.edu.pe/empresa/operaciones/actualizar_convocatoria.php on line 26
+[28-Feb-2024 12:17:53 America/Lima] PHP Notice:  Undefined index: turno in /home/sistemae/demo.sistema.edu.pe/empresa/operaciones/actualizar_convocatoria.php on line 26
+[20-May-2024 10:33:45 America/Lima] PHP Warning:  Undefined array key "id" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php on line 16
+[20-May-2024 10:33:45 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php:21
+Stack trace:
+#0 /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php(21): mysqli_fetch_array()
+#1 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php on line 21
+[20-May-2024 10:34:05 America/Lima] PHP Warning:  Undefined array key "id" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php on line 16
+[20-May-2024 10:34:05 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php:21
+Stack trace:
+#0 /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php(21): mysqli_fetch_array()
+#1 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php on line 21
+[20-May-2024 14:01:15 America/Lima] PHP Warning:  Undefined array key "id" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php on line 16
+[20-May-2024 14:01:15 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php:21
+Stack trace:
+#0 /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php(21): mysqli_fetch_array()
+#1 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php on line 21
+[20-May-2024 14:06:29 America/Lima] PHP Warning:  Undefined array key "id" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php on line 16
+[20-May-2024 14:06:29 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php:21
+Stack trace:
+#0 /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php(21): mysqli_fetch_array()
+#1 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php on line 21
+[20-May-2024 14:07:51 America/Lima] PHP Warning:  Undefined array key "id" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php on line 16
+[20-May-2024 14:07:51 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php:21
+Stack trace:
+#0 /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php(21): mysqli_fetch_array()
+#1 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/operaciones/eliminar_documentos.php on line 21

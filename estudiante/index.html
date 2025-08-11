@@ -1,0 +1,42 @@
+<!-- page content -->
+<div class="right_col" role="main">
+    <div class="">
+        <div class="clearfix"></div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                    <div class="">
+                        <!-- ENCABEZADO -->
+                        <h4><b>Mi Información</b></h4>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12 col-xs-12">
+
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                <span>ESTUDIANTE: <b>
+                                        <?php echo $estudiante['apellidos_nombres'] ?>
+                                    </b></span> <br>
+                                <span>SEMESTRE ACTUAL: <b>
+                                        <?php echo $semestre ?>
+                                    </b></span> <br>
+                                <span>AÑO DE INGRESO: <b>
+                                        <?php echo $estudiante['anio_ingreso'] ?>
+                                    </b></span>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                <span>PROGRAMA DE ESTUDIOS: <b>
+                                        <?php echo $programa['nombre'] ?>
+                                    </b></span><br>
+                                <span>PLAN DE ESTUDIOS: <b>
+                                        <?php echo $programa['plan_estudio'] ?>
+                                    </b></span>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

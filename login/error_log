@@ -1,0 +1,6 @@
+[13-Sep-2024 22:38:02 America/Lima] PHP Warning:  Undefined array key "usuario" in /home/sistemae/iestpmahp.sistema.edu.pe/login/procesar_login.php on line 16
+[13-Sep-2024 22:38:02 America/Lima] PHP Warning:  Undefined array key "password" in /home/sistemae/iestpmahp.sistema.edu.pe/login/procesar_login.php on line 17
+[21-Sep-2024 20:09:14 America/Lima] PHP Warning:  Undefined array key "usuario" in /home/sistemae/iestpmahp.sistema.edu.pe/login/procesar_login.php on line 16
+[21-Sep-2024 20:09:14 America/Lima] PHP Warning:  Undefined array key "password" in /home/sistemae/iestpmahp.sistema.edu.pe/login/procesar_login.php on line 17
+[14-Nov-2024 10:13:46 America/Lima] PHP Warning:  Undefined array key "usuario" in /home/sistemae/iestpmahp.sistema.edu.pe/login/procesar_login.php on line 16
+[14-Nov-2024 10:13:46 America/Lima] PHP Warning:  Undefined array key "password" in /home/sistemae/iestpmahp.sistema.edu.pe/login/procesar_login.php on line 17

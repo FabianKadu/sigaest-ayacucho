@@ -1,0 +1,252 @@
+[13-Apr-2024 16:33:16 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[13-Apr-2024 16:38:22 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[13-Apr-2024 16:39:19 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[13-Apr-2024 16:40:10 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[13-Apr-2024 16:40:42 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[13-Apr-2024 16:56:25 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[13-Apr-2024 16:57:05 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[13-Apr-2024 17:10:45 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[13-Apr-2024 17:12:18 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[13-Apr-2024 17:22:10 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php on line 15
+[13-Apr-2024 17:22:31 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php on line 15
+[13-Apr-2024 17:25:07 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php on line 15
+[13-Apr-2024 18:33:21 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php on line 15
+[13-Apr-2024 18:33:32 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[13-Apr-2024 20:07:02 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php on line 15
+[13-Apr-2024 20:07:13 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php on line 15
+[13-Apr-2024 20:07:23 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php on line 15
+[13-Apr-2024 20:16:53 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php on line 15
+[13-Apr-2024 20:17:09 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php on line 15
+[15-Apr-2024 08:31:56 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 08:35:33 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 08:35:56 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 09:04:20 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 09:05:12 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 09:21:57 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php on line 15
+[15-Apr-2024 09:36:23 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php on line 15
+[15-Apr-2024 11:00:17 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 11:04:00 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 11:04:28 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php on line 15
+[15-Apr-2024 11:04:35 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php on line 15
+[15-Apr-2024 11:04:58 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php on line 15
+[15-Apr-2024 11:52:53 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 11:54:21 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 11:54:46 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 11:55:19 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 11:55:24 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 11:55:48 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 11:55:51 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 11:55:52 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 11:55:54 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 11:55:56 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 11:55:58 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 11:56:09 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 11:57:52 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 11:59:56 America/Lima] PHP Warning:  Undefined array key "id_proceso" in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_mediosPago_proceso.php on line 7
+[15-Apr-2024 12:04:52 America/Lima] PHP Warning:  Undefined array key "id_proceso" in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_mediosPago_proceso.php on line 7
+[15-Apr-2024 12:20:02 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 12:20:35 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 12:20:41 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15
+[15-Apr-2024 12:52:18 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php on line 15
+[15-Apr-2024 12:52:24 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero_proceso.php on line 15
+[15-Apr-2024 13:23:30 America/Lima] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php:15
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php(15): mysqli_num_rows()
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/docente/operaciones/estadisticas/obtener_postulantes_genero.php on line 15

@@ -1,0 +1,173 @@
+[27-Feb-2024 11:02:19 America/Lima] PHP Notice:  Undefined index: horario in /home/sistemae/demo.sistema.edu.pe/empresa/editar_convocatoria.php on line 156
+[27-Feb-2024 16:25:11 America/Lima] PHP Notice:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/include/menu_empresa.php on line 48
+[27-Feb-2024 16:25:11 America/Lima] PHP Notice:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/index.php on line 70
+[27-Feb-2024 16:25:11 America/Lima] PHP Notice:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/index.php on line 71
+[27-Feb-2024 16:25:11 America/Lima] PHP Notice:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/index.php on line 72
+[27-Feb-2024 16:25:11 America/Lima] PHP Notice:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/index.php on line 75
+[27-Feb-2024 16:25:11 America/Lima] PHP Notice:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/index.php on line 80
+[27-Feb-2024 16:25:11 America/Lima] PHP Notice:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/index.php on line 82
+[27-Feb-2024 16:25:11 America/Lima] PHP Notice:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/index.php on line 84
+[27-Feb-2024 16:25:11 America/Lima] PHP Notice:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/index.php on line 86
+[28-Feb-2024 06:27:46 America/Lima] PHP Notice:  Undefined index: horario in /home/sistemae/demo.sistema.edu.pe/empresa/editar_convocatoria.php on line 156
+[28-Feb-2024 11:56:13 America/Lima] PHP Notice:  Undefined index: horario in /home/sistemae/demo.sistema.edu.pe/empresa/editar_convocatoria.php on line 156
+[28-Feb-2024 11:57:56 America/Lima] PHP Notice:  Undefined index: horario in /home/sistemae/demo.sistema.edu.pe/empresa/editar_convocatoria.php on line 156
+[28-Feb-2024 11:59:41 America/Lima] PHP Notice:  Undefined index: horario in /home/sistemae/demo.sistema.edu.pe/empresa/editar_convocatoria.php on line 156
+[28-Feb-2024 12:17:42 America/Lima] PHP Notice:  Undefined index: horario in /home/sistemae/demo.sistema.edu.pe/empresa/editar_convocatoria.php on line 156
+[02-May-2024 08:59:17 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 08:59:17 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 08:59:21 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 08:59:21 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 08:59:23 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 08:59:23 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 08:59:38 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 08:59:38 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:00:32 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:00:32 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:00:33 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:00:33 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:00:34 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:00:34 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:00:34 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:00:34 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:00:34 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:00:34 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:02:40 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:02:40 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:02:45 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:02:45 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:05:08 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:05:08 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:05:13 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 09:05:13 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 14:48:36 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 14:48:36 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 19:13:00 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 19:13:00 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 20:37:35 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[02-May-2024 20:37:35 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[03-May-2024 13:52:35 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[03-May-2024 13:52:35 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 10:17:25 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 10:17:25 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 10:18:54 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 10:18:54 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 10:21:19 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 10:21:19 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 10:21:47 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 10:21:47 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:00:47 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:00:47 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:00:49 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:00:49 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:00:51 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:00:51 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:00:52 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:00:52 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:00:58 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:00:58 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:01:00 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:01:00 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:01:15 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:01:15 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:01:16 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:01:16 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:01:16 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:01:16 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:01:16 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:01:16 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:01:18 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 11:01:18 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:17:34 America/Lima] PHP Warning:  Undefined variable $sistema in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:17:34 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:20:15 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:20:53 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:20:54 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:20:55 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:20:55 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:20:55 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:20:56 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:20:56 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:20:56 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:21:01 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:21:02 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:21:03 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:21:05 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:21:08 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:21:09 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:21:10 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:21:11 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:21:11 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:21:11 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:21:11 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:21:11 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:21:12 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212
+[20-May-2024 14:21:12 America/Lima] PHP Fatal error:  Uncaught Error: Undefined constant "res" in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php:212
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/iestpmorochucos.sistema.edu.pe/empresa/contactar.php on line 212

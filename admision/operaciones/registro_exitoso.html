@@ -1,0 +1,113 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Language" content="es-ES">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .content {
+        text-align: center;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 80%;
+        /* Ajustar el ancho máximo del contenido */
+    }
+
+    .icono-exitoso img {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+    .creditos {
+        color: #989898;
+    }
+
+    /* Media queries para dispositivos móviles */
+    @media screen and (max-width: 600px) {
+        .content {
+            padding: 10px;
+            /* Reducir el espacio interior */
+        }
+
+        .icono-exitoso img {
+            width: 80px;
+            /* Reducir el tamaño del icono */
+        }
+
+        button {
+            padding: 8px 16px;
+            /* Ajustar el tamaño del botón */
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="icono-exitoso">
+                <img src="../utils/controlar.png" alt="Éxito">
+
+            </div>
+            <a href="https://www.flaticon.es/iconos-gratis/okay" class="creditos" title="okay iconos">Okay iconos
+                creados por
+                PureSolution - Flaticon</a>
+            <h1>¡Registro Exitoso!</h1>
+            <span>Su código para acceder a su perfil de postulante es: <b> 97138971 </b> </span>
+            <p>De igual manera se envio al correo propocionado la credencial para acceder al perfil del postulante.</p>
+            <br>
+            <a href="../login_postulante/index.php"><button>Ir al Perfil de Postulante</button></a>
+            <br><br>
+            <p id="contador">La página se cerrará en <span id="segundos">60</span> segundos.</p>
+        </div>
+    </div>
+    <script>
+        setTimeout(function () {
+            window.location.href = "../portal.php"; // Redirige a otra página después de 1 minuto
+        }, 60000); // 60000 milisegundos = 1 minuto
+    </script>
+    <script>
+        var segundos = 60; // Inicializar el contador de segundos
+
+        // Función para actualizar el contador de segundos y cerrar la ventana después de 1 minuto
+        var temporizador = setInterval(function () {
+            document.getElementById('segundos').textContent = segundos; // Actualizar el texto del contador
+            segundos--; // Decrementar el contador
+            if (segundos < 0) {
+                clearInterval(temporizador); // Detener el temporizador cuando llegue a cero
+                window.close(); // Cerrar la ventana
+            }
+        }, 1000); // Actualizar cada segundo (1000 milisegundos = 1 segundo)
+    </script>
+</body>

@@ -1,0 +1,23 @@
+[17-Apr-2024 09:04:36 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/admision/login_postulante/iniciar_sesion.php on line 13
+[17-Apr-2024 09:04:49 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/admision/login_postulante/iniciar_sesion.php on line 13
+[17-Apr-2024 09:05:08 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/admision/login_postulante/iniciar_sesion.php on line 13
+[17-Apr-2024 09:07:11 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/admision/login_postulante/iniciar_sesion.php on line 13
+[17-Apr-2024 16:52:16 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/admision/login_postulante/iniciar_sesion.php on line 13
+[18-Apr-2024 11:21:46 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function obtenerDatosPostulantePorCodigoUnico() in /home/sistemae/demo.sistema.edu.pe/admision/login_postulante/iniciar_sesion.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/admision/login_postulante/iniciar_sesion.php on line 10
+[18-Apr-2024 11:22:30 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function obtenerDatosPostulantePorCodigoUnico() in /home/sistemae/demo.sistema.edu.pe/admision/login_postulante/iniciar_sesion.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/admision/login_postulante/iniciar_sesion.php on line 10
+[18-Apr-2024 11:27:58 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/admision/login_postulante/iniciar_sesion.php on line 13
+[23-May-2024 10:32:58 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sistemae/demo.sistema.edu.pe/admision/login_postulante/iniciar_sesion.php on line 13
+[16-Jul-2024 21:46:57 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sigaestc/demo.sigaest.com/admision/login_postulante/iniciar_sesion.php on line 13
+[16-Jul-2024 21:47:03 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sigaestc/demo.sigaest.com/admision/login_postulante/iniciar_sesion.php on line 13
+[16-Jul-2024 21:47:26 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sigaestc/demo.sigaest.com/admision/login_postulante/iniciar_sesion.php on line 13
+[16-Jul-2024 21:47:33 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sigaestc/demo.sigaest.com/admision/login_postulante/iniciar_sesion.php on line 13
+[16-Jul-2024 21:47:37 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sigaestc/demo.sigaest.com/admision/login_postulante/iniciar_sesion.php on line 13
+[24-Jul-2024 11:36:37 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sigaestc/demo.sigaest.com/admision/login_postulante/iniciar_sesion.php on line 13
+[24-Jul-2024 11:36:50 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sigaestc/demo.sigaest.com/admision/login_postulante/iniciar_sesion.php on line 13
+[24-Jul-2024 19:22:19 America/Lima] PHP Warning:  Trying to access array offset on value of type null in /home/sigaestc/demo.sigaest.com/admision/login_postulante/iniciar_sesion.php on line 13
