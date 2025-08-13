@@ -1,0 +1,36 @@
+[17-Feb-2025 11:30:36 America/Lima] PHP Warning:  Undefined variable $id_programa_estudios in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php on line 112
+[17-Feb-2025 11:30:36 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sistemae_sigaestc_ayacucho`.`modulo_profesional`, CONSTRAINT `modulo_profesional_ibfk_1` FOREIGN KEY (`id_programa_estudio`) REFERENCES `programa_estudios` (`id`) ON UPDATE CASCADE) in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php:113
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php(113): mysqli_query(Object(mysqli), 'INSERT INTO mod...')
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php on line 113
+[01-Apr-2025 21:55:45 America/Lima] PHP Warning:  Undefined variable $id_programa_estudios in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php on line 112
+[01-Apr-2025 21:55:45 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sistemae_sigaestc_ayacucho`.`modulo_profesional`, CONSTRAINT `modulo_profesional_ibfk_1` FOREIGN KEY (`id_programa_estudio`) REFERENCES `programa_estudios` (`id`) ON UPDATE CASCADE) in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php:113
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php(113): mysqli_query(Object(mysqli), 'INSERT INTO mod...')
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php on line 113
+[01-Apr-2025 21:56:36 America/Lima] PHP Warning:  Undefined variable $id_programa_estudios in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php on line 112
+[01-Apr-2025 21:56:36 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sistemae_sigaestc_ayacucho`.`modulo_profesional`, CONSTRAINT `modulo_profesional_ibfk_1` FOREIGN KEY (`id_programa_estudio`) REFERENCES `programa_estudios` (`id`) ON UPDATE CASCADE) in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php:113
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php(113): mysqli_query(Object(mysqli), 'INSERT INTO mod...')
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php on line 113
+[01-Apr-2025 22:21:46 America/Lima] PHP Warning:  Undefined variable $id_programa_estudios in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php on line 112
+[01-Apr-2025 22:21:46 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sistemae_sigaestc_ayacucho`.`modulo_profesional`, CONSTRAINT `modulo_profesional_ibfk_1` FOREIGN KEY (`id_programa_estudio`) REFERENCES `programa_estudios` (`id`) ON UPDATE CASCADE) in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php:113
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php(113): mysqli_query(Object(mysqli), 'INSERT INTO mod...')
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php on line 113
+[01-Apr-2025 22:24:05 America/Lima] PHP Warning:  Undefined variable $id_programa_estudios in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php on line 112
+[01-Apr-2025 22:24:05 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sistemae_sigaestc_ayacucho`.`modulo_profesional`, CONSTRAINT `modulo_profesional_ibfk_1` FOREIGN KEY (`id_programa_estudio`) REFERENCES `programa_estudios` (`id`) ON UPDATE CASCADE) in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php:113
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php(113): mysqli_query(Object(mysqli), 'INSERT INTO mod...')
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php on line 113
+[01-Apr-2025 22:46:38 America/Lima] PHP Warning:  Undefined variable $id_programa_estudios in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php on line 112
+[01-Apr-2025 22:46:38 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sistemae_sigaestc_ayacucho`.`modulo_profesional`, CONSTRAINT `modulo_profesional_ibfk_1` FOREIGN KEY (`id_programa_estudio`) REFERENCES `programa_estudios` (`id`) ON UPDATE CASCADE) in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php:113
+Stack trace:
+#0 /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php(113): mysqli_query(Object(mysqli), 'INSERT INTO mod...')
+#1 {main}
+  thrown in /home/sistemae/demo.sistema.edu.pe/composer/cargar_plan_estudio.php on line 113
