@@ -697,23 +697,25 @@ function convertirHora($hora24) {
 }
 
 function encryptText($plainText) {
-    $config = include __DIR__ . '/../config.php'; // Asegúrate de que el path es correcto
-    $key = $config['ENCRYPTION_KEY']; 
+    // $config = include __DIR__ . '/../config.php'; // Asegúrate de que el path es correcto
+    // $key = $config['ENCRYPTION_KEY']; 
     
-    $method = 'AES-256-CBC';
-    $iv = openssl_random_pseudo_bytes(openssl_cipher_iv_length($method));
-    $encrypted = openssl_encrypt($plainText, $method, $key, 0, $iv);
-    return base64_encode($iv . $encrypted);
+    // $method = 'AES-256-CBC';
+    // $iv = openssl_random_pseudo_bytes(openssl_cipher_iv_length($method));
+    // $encrypted = openssl_encrypt($plainText, $method, $key, 0, $iv);
+    // return base64_encode($iv . $encrypted);
+    return $plainText;
 }
 
 function decryptText($encryptedText) {
-    $config = include __DIR__ . '/../config.php';
-    $key = $config['ENCRYPTION_KEY']; 
+    // $config = include __DIR__ . '/../config.php';
+    // $key = $config['ENCRYPTION_KEY']; 
 
-    $method = 'AES-256-CBC';
-    $data = base64_decode($encryptedText);
-    $iv_length = openssl_cipher_iv_length($method);
-    $iv = substr($data, 0, $iv_length);
-    $encrypted = substr($data, $iv_length);
-    return openssl_decrypt($encrypted, $method, $key, 0, $iv);
+    // $method = 'AES-256-CBC';
+    // $data = base64_decode($encryptedText);
+    // $iv_length = openssl_cipher_iv_length($method);
+    // $iv = substr($data, 0, $iv_length);
+    // $encrypted = substr($data, $iv_length);
+    // return openssl_decrypt($encrypted, $method, $key, 0, $iv);
+    return $encryptedText;
 }
