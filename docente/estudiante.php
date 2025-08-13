@@ -110,7 +110,31 @@ if (!verificar_sesion($conexion)) {
                         </select>
                       </div>
                     </div>
-                    <br />
+                    <!-- <div class="col-lg-3">
+                      <div><b>Registros por página: </b></div>
+                      <div class="form-group">
+                        <select id="registros_por_pagina" class="form-control">
+                          <option value="10">10</option>
+                          <option value="25">25</option>
+                          <option value="50">50</option>
+                          <option value="100">100</option>
+                        </select>
+                      </div>
+                    </div>
+                    <br /> -->
+
+                    <?php
+                    $registros_por_pagina = isset($_GET['registros']) ? (int)$_GET['registros'] : 10;
+                    $pagina_actual = isset($_GET['pagina']) ? (int)$_GET['pagina'] : 1;
+                    
+                    $cantidad_estudiantes = contarEstudiantes($conexion);
+                    $cantidad_estudiantes = mysqli_fetch_array($cantidad_estudiantes);
+                    $cantidad_estudiantes = $cantidad_estudiantes['COUNT(*)'];
+                    $paginas = ceil($cantidad_estudiantes / $registros_por_pagina);
+                    $offset = ($pagina_actual - 1) * $registros_por_pagina;
+                    
+                    $ejec_busc_est = buscarEstudiantePaginado($conexion, $offset, $registros_por_pagina);
+                    ?>
 
                     <table id="tabla-estudiantes" class="table table-striped table-bordered" style="width:100%">
                       <thead>
@@ -126,9 +150,8 @@ if (!verificar_sesion($conexion)) {
                         </tr>
                       </thead>
                       <tbody>
-                        <?php
-                        $ejec_busc_est = buscarEstudiante($conexion);
-                        $cantidad = 1;
+                        <?php                            
+                        $cantidad = $offset + 1;
                         while ($res_busc_est = mysqli_fetch_array($ejec_busc_est)) {
                         ?>
                           <tr>
@@ -195,6 +218,59 @@ if (!verificar_sesion($conexion)) {
                       </tbody>
                     </table>
 
+                    <div style="margin-bottom: 15px;">
+                      <div class="col-sm-7 text-center">
+                        <div class="dataTables_info text-center">
+                          Mostrando del <?php echo $offset + 1; ?> hasta <?php echo $offset + $registros_por_pagina; ?> de un total de <?php echo $cantidad_estudiantes; ?> registros
+                        </div>
+                      </div>
+                        <div class="dataTables_paginate paging_simple_numbers">
+                          <ul class="pagination">
+                            <?php if ($pagina_actual > 1): ?>
+                              <li class="page-item">
+                                <a class="page-link" href="?pagina=1&registros=<?php echo $registros_por_pagina; ?>" aria-label="Primera">
+                                  <span aria-hidden="true">&laquo;</span>
+                                </a>
+                              </li>
+                              <li class="page-item">
+                                <a class="page-link" href="?pagina=<?php echo ($pagina_actual - 1); ?>&registros=<?php echo $registros_por_pagina; ?>">Anterior</a>
+                              </li>
+                            <?php endif; ?>
+  
+                            <?php
+                            $rango = 2;
+                            $inicio_rango = max(1, $pagina_actual - $rango);
+                            $fin_rango = min($paginas, $pagina_actual + $rango);
+  
+                            if ($inicio_rango > 1) {
+                              echo '<li class="page-item disabled"><span class="page-link">...</span></li>';
+                            }
+  
+                            for ($i = $inicio_rango; $i <= $fin_rango; $i++):
+                            ?>
+                              <li class="page-item <?php echo ($i == $pagina_actual) ? 'active' : ''; ?>">
+                                <a class="page-link" href="?pagina=<?php echo $i; ?>&registros=<?php echo $registros_por_pagina; ?>"><?php echo $i; ?></a>
+                              </li>
+                            <?php endfor;
+  
+                            if ($fin_rango < $paginas) {
+                              echo '<li class="page-item disabled"><span class="page-link">...</span></li>';
+                            }
+                            ?>
+  
+                            <?php if ($pagina_actual < $paginas): ?>
+                              <li class="page-item">
+                                <a class="page-link" href="?pagina=<?php echo ($pagina_actual + 1); ?>&registros=<?php echo $registros_por_pagina; ?>">Siguiente</a>
+                              </li>
+                              <li class="page-item">
+                                <a class="page-link" href="?pagina=<?php echo $paginas; ?>&registros=<?php echo $registros_por_pagina; ?>" aria-label="Última">
+                                  <span aria-hidden="true">&raquo;</span>
+                                </a>
+                              </li>
+                            <?php endif; ?>
+                          </ul>
+                        </div>
+                    </div>
 
                     <!--MODAL REGISTRAR-->
                     <div class="modal fade registrar" tabindex="-1" role="dialog" aria-hidden="true">
@@ -434,6 +510,7 @@ if (!verificar_sesion($conexion)) {
     <script src="../Gentella/build/js/custom.min.js"></script>
     <script>
       $(document).ready(function() {
+        // Configuración inicial de DataTables
         $('#tabla-estudiantes').DataTable({
           "language": {
             "processing": "Procesando...",
@@ -453,9 +530,18 @@ if (!verificar_sesion($conexion)) {
               "previous": "Anterior"
             },
           },
-
+          "paging": false, // Desactivamos la paginación de DataTables ya que usamos la nuestra
+          "info": false   // Desactivamos la información de registros ya que mostramos la nuestra
         });
 
+        // Manejador para cambio de registros por página
+        $('#registros_por_pagina').change(function() {
+          var registros = $(this).val();
+          window.location.href = '?pagina=1&registros=' + registros;
+        });
+
+        // Establecer el valor seleccionado en el dropdown
+        $('#registros_por_pagina').val('<?php echo $registros_por_pagina; ?>');
       });
     </script>
 

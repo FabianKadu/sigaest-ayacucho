@@ -105,8 +105,20 @@ if (!verificar_sesion($conexion)) {
                       </thead>
                       <tbody>
                         <?php
-                        $ejec_busc_est = buscarEgresado($conexion);
-                        $cantidad = 1;
+                        $registros_por_pagina = isset($_GET['registros']) ? (int)$_GET['registros'] : 10;
+                        $pagina_actual = isset($_GET['pagina']) ? (int)$_GET['pagina'] : 1;
+                        
+                        $cantidad_egresados = contarEgresados($conexion);
+                        $cantidad_egresados = mysqli_fetch_array($cantidad_egresados);
+                        $cantidad_egresados = $cantidad_egresados['COUNT(*)'];
+                        $paginas = ceil($cantidad_egresados / $registros_por_pagina);
+                        $offset = ($pagina_actual - 1) * $registros_por_pagina;
+                        
+                        $ejec_busc_est = buscarEgresadoPaginado($conexion, $offset, $registros_por_pagina);
+                        ?>
+
+                        <?php
+                        $cantidad = $offset + 1;
                         while ($res_busc_est = mysqli_fetch_array($ejec_busc_est)) {
                         ?>
                           <tr>
@@ -153,6 +165,81 @@ if (!verificar_sesion($conexion)) {
                       </tbody>
                     </table>
 
+                    <?php if ($cantidad_egresados > 0): ?>
+                    <div style="margin-bottom: 15px;">
+                      <div class="col-sm-7 text-center">
+                        <div class="dataTables_info text-center">
+                          <?php if ($cantidad_egresados <= $registros_por_pagina): ?>
+                            Mostrando todos los registros (<?php echo $cantidad_egresados; ?> en total)
+                          <?php else: ?>
+                            Mostrando del <?php echo $offset + 1; ?> hasta <?php echo min($offset + $registros_por_pagina, $cantidad_egresados); ?> de un total de <?php echo $cantidad_egresados; ?> registros
+                          <?php endif; ?>
+                        </div>
+                      </div>
+                      <?php if ($paginas > 1): ?>
+                      <div class="dataTables_paginate paging_simple_numbers">
+                        <ul class="pagination">
+                          <?php if ($pagina_actual > 1): ?>
+                            <li class="page-item">
+                              <a class="page-link" href="?pagina=1&registros=<?php echo $registros_por_pagina; ?>" aria-label="Primera">
+                                <span aria-hidden="true">&laquo;</span>
+                              </a>
+                            </li>
+                            <li class="page-item">
+                              <a class="page-link" href="?pagina=<?php echo ($pagina_actual - 1); ?>&registros=<?php echo $registros_por_pagina; ?>">Anterior</a>
+                            </li>
+                          <?php endif; ?>
+
+                          <?php
+                          // Ajustamos el rango según la cantidad de páginas
+                          $rango = ($paginas <= 7) ? $paginas : 2;
+                          $inicio_rango = max(1, $pagina_actual - $rango);
+                          $fin_rango = min($paginas, $pagina_actual + $rango);
+
+                          // Si estamos cerca del inicio, mostrar más páginas hacia adelante
+                          if ($pagina_actual <= $rango + 1) {
+                            $fin_rango = min($paginas, $rango * 2 + 1);
+                          }
+                          // Si estamos cerca del final, mostrar más páginas hacia atrás
+                          if ($pagina_actual >= $paginas - $rango) {
+                            $inicio_rango = max(1, $paginas - ($rango * 2));
+                          }
+
+                          if ($inicio_rango > 1) {
+                            echo '<li class="page-item disabled"><span class="page-link">...</span></li>';
+                          }
+
+                          for ($i = $inicio_rango; $i <= $fin_rango; $i++):
+                          ?>
+                            <li class="page-item <?php echo ($i == $pagina_actual) ? 'active' : ''; ?>">
+                              <a class="page-link" href="?pagina=<?php echo $i; ?>&registros=<?php echo $registros_por_pagina; ?>"><?php echo $i; ?></a>
+                            </li>
+                          <?php endfor;
+
+                          if ($fin_rango < $paginas) {
+                            echo '<li class="page-item disabled"><span class="page-link">...</span></li>';
+                          }
+                          ?>
+
+                          <?php if ($pagina_actual < $paginas): ?>
+                            <li class="page-item">
+                              <a class="page-link" href="?pagina=<?php echo ($pagina_actual + 1); ?>&registros=<?php echo $registros_por_pagina; ?>">Siguiente</a>
+                            </li>
+                            <li class="page-item">
+                              <a class="page-link" href="?pagina=<?php echo $paginas; ?>&registros=<?php echo $registros_por_pagina; ?>" aria-label="Última">
+                                <span aria-hidden="true">&raquo;</span>
+                              </a>
+                            </li>
+                          <?php endif; ?>
+                        </ul>
+                      </div>
+                      <?php endif; ?>
+                    </div>
+                    <?php else: ?>
+                    <div class="alert alert-info text-center" role="alert">
+                      No se encontraron registros.
+                    </div>
+                    <?php endif; ?>
 
                   </div>
                 </div>
@@ -229,7 +316,8 @@ if (!verificar_sesion($conexion)) {
               "previous": "Anterior"
             },
           },
-
+          "paging": false, // Desactivamos la paginación de DataTables ya que usamos la nuestra
+          "info": false   // Desactivamos la información de registros ya que mostramos la nuestra
         });
 
       });

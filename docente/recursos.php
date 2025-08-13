@@ -13,36 +13,113 @@ if (!verificar_sesion($conexion)) {
 } else {
 
   $id_docente_sesion = buscar_docente_sesion($conexion, $_SESSION['id_sesion'], $_SESSION['token']);
+  $mensajes_error = [];
+  $mensajes_ok = [];
+
+  // Obtener las rutas actuales de la base de datos (antes de procesar POST)
+  $query = "SELECT * FROM recursos WHERE id = 1";
+  $result = mysqli_query($conexion, $query);
+  $recursos = mysqli_fetch_assoc($result);
+
   // Comprobar si se ha enviado el formulario
   if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $ruta_base = '../img/';
+    $ruta_dir_destino = __DIR__ . '/../img/';
+    if (!is_dir($ruta_dir_destino)) {
+      @mkdir($ruta_dir_destino, 0755, true);
+    }
+    if (!is_dir($ruta_dir_destino) || !is_writable($ruta_dir_destino)) {
+      $mensajes_error[] = "La carpeta de destino no existe o no es escribible: $ruta_dir_destino";
+    }
+    $ruta_base = (realpath($ruta_dir_destino) ?: $ruta_dir_destino);
+    $ruta_base = rtrim($ruta_base, '/') . '/';
+    $ruta_publica_base = '../img/';
     $campos = ['img_sistema', 'img_logo_documento', 'img_cabeza', 'img_footer', 'img_fondo'];
     $archivos_actualizados = [];
 
     foreach ($campos as $campo) {
-      if (!empty($_FILES[$campo]['name'])) {
-        $nombre_archivo = basename($_FILES[$campo]['name']);
-        $ruta_archivo = $ruta_base . $nombre_archivo;
-        if (move_uploaded_file($_FILES[$campo]['tmp_name'], $ruta_archivo)) {
-          $archivos_actualizados[$campo] = $ruta_archivo;
+      if (!isset($_FILES[$campo]) || empty($_FILES[$campo]['name'])) {
+        continue;
+      }
+
+      $error = $_FILES[$campo]['error'];
+      if ($error !== UPLOAD_ERR_OK) {
+        $mensajes_error[] = "No se pudo cargar '$campo' (código de error $error)." .
+          (($error === UPLOAD_ERR_INI_SIZE || $error === UPLOAD_ERR_FORM_SIZE)
+            ? " El archivo excede el límite permitido por el servidor (upload_max_filesize/post_max_size)." : "");
+        continue;
+      }
+
+      $tmpPath = $_FILES[$campo]['tmp_name'];
+      $fileSize = (int) $_FILES[$campo]['size'];
+
+      // Validar tipo MIME real
+      $finfo = finfo_open(FILEINFO_MIME_TYPE);
+      $mime = finfo_file($finfo, $tmpPath);
+      finfo_close($finfo);
+
+      $mimeToExt = [
+        'image/jpeg' => 'jpg',
+        'image/png' => 'png',
+        'image/gif' => 'gif',
+        'image/webp' => 'webp'
+      ];
+      if (!isset($mimeToExt[$mime])) {
+        $mensajes_error[] = "El archivo de '$campo' no es una imagen válida (JPEG, PNG, GIF, WEBP).";
+        continue;
+      }
+      $extension = $mimeToExt[$mime];
+
+      // Nombre determinístico por campo para no acumular
+      $fileName = $campo . '.' . $extension;
+      $destinoFs = $ruta_base . $fileName;
+      $destinoPublico = $ruta_publica_base . $fileName;
+
+      // Si ya existe un archivo previo distinto, eliminarlo (para no acumular)
+      if (!empty($recursos[$campo]) && $recursos[$campo] !== $destinoPublico) {
+        $prevPublic = $recursos[$campo];
+        // Resolver a ruta de sistema de archivos basada en la ruta pública almacenada (p. ej. ../img/archivo)
+        $rutaAnteriorFsCandidata = realpath(__DIR__ . '/' . $prevPublic);
+        if (!$rutaAnteriorFsCandidata) {
+          $rutaAnteriorFsCandidata = __DIR__ . '/' . $prevPublic;
+        }
+        if (is_file($rutaAnteriorFsCandidata)) {
+          @unlink($rutaAnteriorFsCandidata);
         }
       }
+
+      // Si existe el destino, eliminar para reemplazar
+      if (is_file($destinoFs)) {
+        @unlink($destinoFs);
+      }
+
+      if (!move_uploaded_file($tmpPath, $destinoFs)) {
+        $mensajes_error[] = "Error al guardar la imagen para '$campo'. Verifique permisos de escritura en la carpeta img.";
+        continue;
+      }
+
+      // Asegurar permisos razonables
+      @chmod($destinoFs, 0644);
+
+      $archivos_actualizados[$campo] = $destinoPublico;
+      $mensajes_ok[] = "Se actualizó la imagen de '$campo'.";
     }
 
     if (!empty($archivos_actualizados)) {
-      $update_query = "UPDATE recursos SET ";
-      foreach ($archivos_actualizados as $campo => $ruta) {
-        $update_query .= "$campo = '$ruta', ";
+      $setPartes = [];
+      foreach ($archivos_actualizados as $campo => $rutaPublica) {
+        $campoSeguro = mysqli_real_escape_string($conexion, $campo);
+        $rutaSegura = mysqli_real_escape_string($conexion, $rutaPublica);
+        $setPartes[] = "$campoSeguro = '$rutaSegura'";
       }
-      $update_query = rtrim($update_query, ', ') . " WHERE id = 1";
+      $update_query = "UPDATE recursos SET " . implode(', ', $setPartes) . " WHERE id = 1";
       mysqli_query($conexion, $update_query);
+
+      // Refrescar datos para mostrar nuevas rutas
+      $query = "SELECT * FROM recursos WHERE id = 1";
+      $result = mysqli_query($conexion, $query);
+      $recursos = mysqli_fetch_assoc($result);
     }
   }
-
-  // Obtener las rutas actuales de la base de datos
-  $query = "SELECT * FROM recursos WHERE id = 1";
-  $result = mysqli_query($conexion, $query);
-  $recursos = mysqli_fetch_assoc($result);
 ?>
   <!DOCTYPE html>
   <html lang="es">
@@ -78,7 +155,7 @@ if (!verificar_sesion($conexion)) {
     <!-- Script obtenido desde CDN jquery -->
   </head>
 
-  <body class="nav-md" onload="desactivar_controles();">
+  <body class="nav-md">
     <div class="container body">
       <div class="main_container">
         <!--menu-->
@@ -98,15 +175,19 @@ if (!verificar_sesion($conexion)) {
                     <div class="clearfix"></div>
                   </div>
                   <div class="">
+                    <p class="text-muted" style="margin-top:10px;">
+                      Tamaños máximos del servidor: upload_max_filesize = <?= ini_get('upload_max_filesize') ?>, post_max_size = <?= ini_get('post_max_size') ?>, max_file_uploads = <?= ini_get('max_file_uploads') ?>.
+                    </p>
                     <form action="" method="POST" enctype="multipart/form-data">
+                      <input type="hidden" name="MAX_FILE_SIZE" value="16777216"><!-- 16 MB sugerido -->
 
                       <!-- Imagen del Sistema -->
                       <div class="form-group">
                         <label class="control-label" for="img_sistema">Logo de la institución para el sistema. Uso común en el menú, login, etc.</label>
                         <div>
-                          <input type="file" id="img_sistema" name="img_sistema" class="form-control" onchange="previewImage(this, 'preview_img_sistema')">
+                          <input type="file" id="img_sistema" name="img_sistema" class="form-control" onchange="previewImage(this, 'preview_img_sistema')" accept="image/*">
                           <p>Se recomieda una imagen horizontal.</p>
-                          <img id="preview_img_sistema" src="<?= $recursos['img_sistema'] ?>" alt="Imagen del Sistema" style="height:50px; cursor:pointer;" onclick="openModal('<?= $recursos['img_sistema'] ?>')">
+                          <img id="preview_img_sistema" src="<?= $recursos['img_sistema'] ?>?v=<?= @file_exists($recursos['img_sistema']) ? @filemtime($recursos['img_sistema']) : time() ?>" alt="Imagen del Sistema" style="height:50px; cursor:pointer;" onclick="openModal('<?= $recursos['img_sistema'] ?>')">
                         </div>
                       </div>
 
@@ -114,9 +195,9 @@ if (!verificar_sesion($conexion)) {
                       <div class="form-group">
                         <label class="control-label " for="img_logo_documento">Logo de la institución para el uso en documentos.</label>
                         <div>
-                          <input type="file" id="img_logo_documento" name="img_logo_documento" class="form-control" onchange="previewImage(this, 'preview_img_logo_documento')">
+                          <input type="file" id="img_logo_documento" name="img_logo_documento" class="form-control" onchange="previewImage(this, 'preview_img_logo_documento')" accept="image/*">
                           <p>Se recomieda cargar el logo con fondo transparente.</p>
-                          <img id="preview_img_logo_documento" src="<?= $recursos['img_logo_documento'] ?>" alt="Imagen Logo Documento" style="height:50px; cursor:pointer;" onclick="openModal('<?= $recursos['img_logo_documento'] ?>')">
+                          <img id="preview_img_logo_documento" src="<?= $recursos['img_logo_documento'] ?>?v=<?= @file_exists($recursos['img_logo_documento']) ? @filemtime($recursos['img_logo_documento']) : time() ?>" alt="Imagen Logo Documento" style="height:50px; cursor:pointer;" onclick="openModal('<?= $recursos['img_logo_documento'] ?>')">
                         </div>
                       </div>
 
@@ -124,9 +205,9 @@ if (!verificar_sesion($conexion)) {
                       <div class="form-group">
                         <label class="control-label " for="img_cabeza">Imagen de encabezado de documentos</label>
                         <div>
-                          <input type="file" id="img_cabeza" name="img_cabeza" class="form-control" onchange="previewImage(this, 'preview_img_cabeza')">
+                          <input type="file" id="img_cabeza" name="img_cabeza" class="form-control" onchange="previewImage(this, 'preview_img_cabeza')" accept="image/*">
                           <p>Se recomieda una imagen horizontal.</p>
-                          <img id="preview_img_cabeza" src="<?= $recursos['img_cabeza'] ?>" alt="Imagen Cabeza" style="height:50px; cursor:pointer;" onclick="openModal('<?= $recursos['img_cabeza'] ?>')">
+                          <img id="preview_img_cabeza" src="<?= $recursos['img_cabeza'] ?>?v=<?= @file_exists($recursos['img_cabeza']) ? @filemtime($recursos['img_cabeza']) : time() ?>" alt="Imagen Cabeza" style="height:50px; cursor:pointer;" onclick="openModal('<?= $recursos['img_cabeza'] ?>')">
                         </div>
                       </div>
 
@@ -134,9 +215,9 @@ if (!verificar_sesion($conexion)) {
                       <div class="form-group">
                         <label class="control-label " for="img_footer">Imagen de pie de página para los documentos</label>
                         <div>
-                          <input type="file" id="img_footer" name="img_footer" class="form-control" onchange="previewImage(this, 'preview_img_footer')">
+                          <input type="file" id="img_footer" name="img_footer" class="form-control" onchange="previewImage(this, 'preview_img_footer')" accept="image/*">
                           <p>Se recomieda una imagen horizontal.</p>
-                          <img id="preview_img_footer" src="<?= $recursos['img_footer'] ?>" alt="Imagen Pie" style="height:50px; cursor:pointer;" onclick="openModal('<?= $recursos['img_footer'] ?>')">
+                          <img id="preview_img_footer" src="<?= $recursos['img_footer'] ?>?v=<?= @file_exists($recursos['img_footer']) ? @filemtime($recursos['img_footer']) : time() ?>" alt="Imagen Pie" style="height:50px; cursor:pointer;" onclick="openModal('<?= $recursos['img_footer'] ?>')">
                         </div>
                       </div>
 
@@ -144,9 +225,9 @@ if (!verificar_sesion($conexion)) {
                       <div class="form-group">
                         <label class="control-label " for="img_fondo">Imagen de fondo para el login y la pagina principal de cada usuario</label>
                         <div>
-                          <input type="file" id="img_fondo" name="img_fondo" class="form-control" onchange="previewImage(this, 'preview_img_fondo')">
+                          <input type="file" id="img_fondo" name="img_fondo" class="form-control" onchange="previewImage(this, 'preview_img_fondo')" accept="image/*">
                           <p>Se recomieda una imagen horizontal.</p>
-                          <img id="preview_img_fondo" src="<?= $recursos['img_fondo'] ?>" alt="Imagen Fondo" style="height:50px; cursor:pointer;" onclick="openModal('<?= $recursos['img_fondo'] ?>')">
+                          <img id="preview_img_fondo" src="<?= $recursos['img_fondo'] ?>?v=<?= @file_exists($recursos['img_fondo']) ? @filemtime($recursos['img_fondo']) : time() ?>" alt="Imagen Fondo" style="height:50px; cursor:pointer;" onclick="openModal('<?= $recursos['img_fondo'] ?>')">
                         </div>
                       </div>
 

@@ -37,9 +37,22 @@ function buscarPeriodoAcadById($conexion, $id)
 	$sql = "SELECT * FROM periodo_academico WHERE id='$id'";
 	return mysqli_query($conexion, $sql);
 }
+
+function contarEstudiantes($conexion)
+{
+	$sql = "SELECT COUNT(*) FROM estudiante WHERE egresado = 'NO'";
+	return mysqli_query($conexion, $sql);
+}
+
 function buscarEstudiante($conexion)
 {
 	$sql = "SELECT * FROM estudiante WHERE egresado = 'NO'";
+	return mysqli_query($conexion, $sql);
+}
+
+function buscarEstudiantePaginado($conexion, $pagina, $registros_por_pagina)
+{
+	$sql = "SELECT * FROM estudiante WHERE egresado = 'NO' LIMIT $registros_por_pagina OFFSET $pagina";
 	return mysqli_query($conexion, $sql);
 }
 
@@ -55,11 +68,24 @@ function buscarTodosEstudiantes($conexion)
 	return mysqli_query($conexion, $sql);
 }
 
+function contarEgresados($conexion)
+{
+	$sql = "SELECT COUNT(*) FROM estudiante WHERE egresado = 'SI'";
+	return mysqli_query($conexion, $sql);
+}
+
 function buscarEgresado($conexion)
 {
 	$sql = "SELECT * FROM estudiante WHERE egresado = 'SI'";
 	return mysqli_query($conexion, $sql);
 }
+
+function buscarEgresadoPaginado($conexion, $pagina, $registros_por_pagina)
+{
+	$sql = "SELECT * FROM estudiante WHERE egresado = 'SI' LIMIT $registros_por_pagina OFFSET $pagina";
+	return mysqli_query($conexion, $sql);
+}
+
 function buscarActividadesById($conexion, $id)
 {
 	$sql = "SELECT * FROM actividades_egresado WHERE id_estudiante = '$id' ORDER BY fecha_inicio DESC";
